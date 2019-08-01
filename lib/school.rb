@@ -1,6 +1,6 @@
 class School
   attr_reader :roster
-  
+
   def initialize(school_name)
     @school = school_name
     @roster = {}
@@ -16,5 +16,6 @@ class School
   end
 
   def sort
+    roster.sort
   end
 end
